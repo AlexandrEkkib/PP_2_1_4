@@ -14,6 +14,6 @@ public class Application {
                 applicationContext.getBean(KoscheiTheDeathless.class);
         System.out.println(koscheiTheDeathless.getRulesByDeth());
 
-       Arrays.stream(applicationContext.getBeanDefinitionNames()).distinct().forEach(System.out::println);
+//       Arrays.stream(applicationContext.getBeanDefinitionNames()).distinct().forEach(System.out::println);
     }
 }
